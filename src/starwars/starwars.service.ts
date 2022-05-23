@@ -23,9 +23,4 @@ export class StarwarsService {
   getAllPeople(): Promise<PeopleBo[]> {
     return this.dao.getAllPeople();
   }
-
-  async getPeople(id: number): PeopleBo throwwable Error{
-
-  }
-
 }
